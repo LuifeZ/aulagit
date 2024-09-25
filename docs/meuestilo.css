@@ -1,8 +1,66 @@
 body{
-    background-color:white;
-    font-family: ;
+    background-color:rgb(192, 192, 192);
+    font-family:sans-serif;
+    font-size: 14pt;
 }
 
-.container{
-    f
+.item{
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 3px;
+    margin: 7px;
+    padding: 10px; ;
+}
+
+h1{
+    text-align: center;
+
+}
+
+header p {
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    background-color:rgb(11, 64, 73) ; 
+    justify-content: center;
+    border-radius: 3px;
+    margin: 7px;
+    padding: 10px;
+}
+
+header li{
+    border-radius: 3px;
+    background-color:rgb(255, 255, 255) ;
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    font-size: 18pt;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    margin: 7px;
+    padding: 10px;
+    border-radius: 3px;;
+
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    background-color:rgb(11, 64, 73) ;
+    margin: 0%;
+    border-radius: 3px;
+}
+
+i{
+    font-size: 45px; 
+    color:rgb(11, 64, 73) ;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 4px;
 }
