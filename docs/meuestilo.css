@@ -5,7 +5,7 @@ body{
 }
 
 .item{
-    background-color:rgb(255, 255, 255) ;
+    background-color:rgb(11, 64, 73);
     border-radius: 3px;
     margin: 7px;
     padding: 10px; ;
@@ -13,11 +13,14 @@ body{
 
 h1{
     text-align: center;
-
+    color:rgb(255, 255, 255) ;
+    font-size: 45pt;
 }
 
 header p {
     text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
 }
 
 nav ul{
@@ -55,12 +58,15 @@ h2{
 }
 
 i{
-    font-size: 45px; 
+    font-size: 70px; 
     color:rgb(11, 64, 73) ;
 }
 
 .logo{
-    display: flex;
-    justify-content: center;
+    display:inline-flex;
     margin: 4px;
+}
+
+footer p{
+    color:rgb(11, 64, 73); 
 }
